@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+  resources :authors
+  resources :posts
+
+  # get "/artists/new", to: "artists#new", as: "new_artist"
+  # get "/artists/:id", to: "artists#show", as: "artist"
+  # post "/artists", to: "artists#create"
+
+  # get "/posts/new", to: "posts#new", as: "new_post"
+  # get "/posts/:id", to: "posts#show", as: "post"
+  # get "/posts/:id/edit", to: "posts#edit", as: "edit_post"
+  # patch "/posts/:id", to: "posts#update"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
